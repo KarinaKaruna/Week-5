@@ -1,0 +1,65 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+header {
+    background-color: rgb(184, 184, 184);
+    height: 100px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    background-color: bisque;
+    height: 300px;
+    width: 100%;
+
+}
+
+
+.main-1 {
+
+    background-color: bisque;
+}
+
+.main-2 {
+    background-color: rgb(219, 161, 91);
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+    align-self: center;
+}
+
+.main-3 {
+
+    align-self: flex-end;
+    background-color: rgb(219, 161, 91);
+    width: 95%;
+    padding: 10px;
+    margin: 1%;
+}
+
+aside {
+    display: flex;
+    flex-direction: ;
+    background-color: rgb(125, 220, 160);
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    ;
+
+}
+
+.section {
+    padding: 15px;
+    margin: 2%;
+    background-color: white;
+
+}
